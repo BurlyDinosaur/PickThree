@@ -1,8 +1,17 @@
 <html>
     <head>
+            <script src="./pickThreeGame.js" type="text/javascript"></script>
     </head>
-    <body>
+    <body onload="init()">
         <canvas id="pickThree" width="300" height="200" style="border:1px solid #000000;">
         </canvas>
+        <br />
+        <text>
+          Rules:<br/>
+          1pt: Find red card on first guess.<br/>
+          2pt: Find red card second guess.<br/>
+          Game over: Can't find it after two guesses.<br/>
+        </text>
+        <div id="HighScore"></div>
     </body>
 </html>
